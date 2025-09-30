@@ -1,8 +1,8 @@
 /* Global body styles */
 body {
-  font-family: 'Orbitron', sans-serif;
-  background: linear-gradient(135deg, #0d0d0d, #1a1a2e);
-  color: #00fff7;
+  font-family: 'Roboto', sans-serif;
+  background: #fff8f0; /* soft parchment */
+  color: #3b2f2f;
   margin: 0;
   padding: 0;
 }
@@ -10,87 +10,111 @@ body {
 /* Main container */
 .container {
   max-width: 700px;
-  margin: 50px auto;
-  padding: 30px;
-  border-radius: 20px;
-  background: rgba(20, 20, 40, 0.7);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 20px #00fff7, 0 0 40px #ff00ff50 inset;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background: #fdf6e3; /* slightly darker cream */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   text-align: center;
-  transition: all 0.3s ease-in-out;
 }
 
 /* Headings */
 h1 {
-  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  color: #b71c1c; /* traditional deep red */
   margin-bottom: 20px;
-  color: #0ff;
-  text-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
 }
 
 h2, h3 {
-  color: #ff00ff;
-  text-shadow: 0 0 5px #ff00ff;
+  font-family: 'Merriweather', serif;
+  color: #4a3f3f;
+  margin-bottom: 10px;
+}
+
+/* Cards */
+.card {
+  background: #f5e0c9; /* slightly darker cream */
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 /* Buttons */
 button {
-  display: inline-block;
-  margin: 15px;
-  padding: 12px 25px;
-  font-size: 16px;
-  font-weight: bold;
+  background-color: #b71c1c;
   color: #fff;
-  background: rgba(0, 255, 247, 0.2);
-  border: 1px solid #0ff;
-  border-radius: 12px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  margin: 10px 5px;
+  font-size: 16px;
   cursor: pointer;
-  backdrop-filter: blur(5px);
-  box-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff inset;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease-in-out;
 }
 
 button:hover {
-  background: rgba(0, 255, 247, 0.4);
-  box-shadow: 0 0 20px #0ff, 0 0 40px #ff00ff inset;
-  transform: translateY(-2px);
+  background-color: #8c1414;
 }
 
-/* Card styles for prayers and mysteries */
-.card {
-  background: rgba(10,10,30,0.6);
-  border-radius: 15px;
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #0ff;
-  box-shadow: 0 0 15px #0ff inset, 0 0 25px #ff00ff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Disabled buttons */
+button:disabled {
+  background-color: #d3b6b6;
+  cursor: not-allowed;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 25px #0ff, 0 0 50px #ff00ff inset;
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px);}
+  to { opacity: 1; transform: translateY(0);}
 }
 
 /* Text inside content */
 #content {
   text-align: left;
-  margin-top: 25px;
-  line-height: 1.6;
-  color: #00fff7;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #3b2f2f;
 }
 
 /* Paragraphs */
 p {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  font-size: 1rem;
 }
 
-/* Fade-in animation */
-.fade-in {
-  animation: fadeIn 0.8s ease-in-out;
+/* Buttons container */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px);}
-  to { opacity: 1; transform: translateY(0);}
+/* Navigation buttons (Next/Previous Day) */
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  flex: 1;
+  margin: 0 5px;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 480px) {
+  .container { padding: 15px; margin: 15px auto; }
+  button { width: 90%; font-size: 15px; padding: 10px 0; }
+  h1 { font-size: 1.4rem; }
+  h2, h3 { font-size: 1.1rem; }
+  p { font-size: 0.95rem; }
+  .card { padding: 12px; margin-bottom: 15px; }
+  .navigation-buttons { flex-direction: column; }
+  .navigation-buttons button { margin: 5px 0; width: 100%; }
 }
