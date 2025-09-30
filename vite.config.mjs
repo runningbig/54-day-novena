@@ -7,14 +7,13 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'assets/*.png'],
       manifest: {
         name: '54-Day Novena',
         short_name: 'Novena',
-        description: 'Daily guidance for the 54-Day Novena prayer journey',
-        theme_color: '#b71c1c',
-        background_color: '#fdf6e3',
+        start_url: '.',
         display: 'standalone',
+        background_color: '#fff8f0',
+        theme_color: '#b71c1c',
         icons: [
           {
             src: 'assets/icon-192.png',
