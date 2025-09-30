@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://YOUR_USERNAME.github.io/54-day-novena",
+  "homepage": "https://runningbig.github.io/54-day-novena",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -27,8 +27,14 @@ function App() {
           <h3>Opening Prayer</h3>
           <p>{prayer.opening}</p>
 
-          <h3>Mysteries</h3>
-          <p>{prayer.mysteries}</p>
+          <h3>Mystery</h3>
+          <p>{prayer.mystery}</p>
+
+          <h3>Prayer for Virtue</h3>
+          <p>{prayer.prayer_for_virtue}</p>
+
+          <h3>Petition / Thanksgiving</h3>
+          <p>{prayer.petition_or_thanksgiving}</p>
 
           <h3>Closing Prayer</h3>
           <p>{prayer.closing}</p>
