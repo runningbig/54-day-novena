@@ -1,24 +1,77 @@
-[
-  {
-    "day": 1,
-    "openingPrayer": "Opening prayer for Day 1...",
-    "mysteries": [
-      {
-        "title": "Mystery 1",
-        "reflection": "Reflection for mystery 1..."
-      }
-    ],
-    "closingPrayer": "Closing prayer for Day 1..."
+{
+  "day1": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I offer You my prayers today for the intention I carry in my heart.",
+    "mysteries": "Meditate on the First Joyful Mystery: The Annunciation of the Angel Gabriel to Mary. Reflect on Mary's obedience and faith.",
+    "closing": "Amen."
   },
-  {
-    "day": 2,
-    "openingPrayer": "Opening prayer for Day 2...",
-    "mysteries": [
-      {
-        "title": "Mystery 1",
-        "reflection": "Reflection for mystery 1..."
-      }
-    ],
-    "closingPrayer": "Closing prayer for Day 2..."
+  "day2": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I begin today with trust in Your mercy and guidance.",
+    "mysteries": "Meditate on the Second Joyful Mystery: The Visitation of Mary to Elizabeth. Reflect on charity and service to others.",
+    "closing": "Amen."
+  },
+  "day3": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I consecrate this day to You and Your love.",
+    "mysteries": "Meditate on the Third Joyful Mystery: The Nativity of Our Lord. Reflect on humility and simplicity.",
+    "closing": "Amen."
+  },
+  "day4": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, guide my heart in prayer today.",
+    "mysteries": "Meditate on the Fourth Joyful Mystery: The Presentation of Jesus in the Temple. Reflect on obedience and offering to God.",
+    "closing": "Amen."
+  },
+  "day5": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I offer today my prayers for all intentions.",
+    "mysteries": "Meditate on the Fifth Joyful Mystery: The Finding of Jesus in the Temple. Reflect on seeking God with perseverance.",
+    "closing": "Amen."
+  },
+  "day6": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, bless my prayers this day.",
+    "mysteries": "Meditate on the First Sorrowful Mystery: The Agony in the Garden. Reflect on surrender to God's will in times of suffering.",
+    "closing": "Amen."
+  },
+  "day7": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I trust in Your love today.",
+    "mysteries": "Meditate on the Second Sorrowful Mystery: The Scourging at the Pillar. Reflect on patience and endurance.",
+    "closing": "Amen."
+  },
+  "day8": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, help me grow in holiness today.",
+    "mysteries": "Meditate on the Third Sorrowful Mystery: The Crowning with Thorns. Reflect on humility and forgiveness.",
+    "closing": "Amen."
+  },
+  "day9": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, guide my thoughts and actions.",
+    "mysteries": "Meditate on the Fourth Sorrowful Mystery: The Carrying of the Cross. Reflect on perseverance and love for others.",
+    "closing": "Amen."
+  },
+  "day10": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I offer You my heart today.",
+    "mysteries": "Meditate on the Fifth Sorrowful Mystery: The Crucifixion and Death of Jesus. Reflect on self-sacrifice and redemption.",
+    "closing": "Amen."
+  },
+  "day11": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, help me embrace Your mysteries with devotion.",
+    "mysteries": "Meditate on the First Glorious Mystery: The Resurrection. Reflect on hope and new life.",
+    "closing": "Amen."
+  },
+  "day12": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I rejoice in Your triumph over death.",
+    "mysteries": "Meditate on the Second Glorious Mystery: The Ascension. Reflect on trust in God's plan and mission.",
+    "closing": "Amen."
+  },
+  "day13": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, let me be guided by Your Spirit today.",
+    "mysteries": "Meditate on the Third Glorious Mystery: The Descent of the Holy Spirit. Reflect on receiving God's gifts with gratitude.",
+    "closing": "Amen."
+  },
+  "day14": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, fill my heart with love and devotion.",
+    "mysteries": "Meditate on the Fourth Glorious Mystery: The Assumption of Mary. Reflect on faith and hope in eternal life.",
+    "closing": "Amen."
+  },
+  "day15": {
+    "opening": "O Jesus, through the Immaculate Heart of Mary, I dedicate this day to Your glory.",
+    "mysteries": "Meditate on the Fifth Glorious Mystery: The Coronation of Mary as Queen of Heaven. Reflect on devotion and honor to the Blessed Mother.",
+    "closing": "Amen."
   }
-]
+}
