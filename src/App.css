@@ -1,42 +1,96 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Global body styles */
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a2e);
+  color: #00fff7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(20, 20, 40, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px #00fff7, 0 0 40px #ff00ff50 inset;
   text-align: center;
+  transition: all 0.3s ease-in-out;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2, h3 {
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Buttons */
+button {
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(0, 255, 247, 0.2);
+  border: 1px solid #0ff;
+  border-radius: 12px;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff inset;
+  transition: all 0.3s ease;
 }
 
+button:hover {
+  background: rgba(0, 255, 247, 0.4);
+  box-shadow: 0 0 20px #0ff, 0 0 40px #ff00ff inset;
+  transform: translateY(-2px);
+}
+
+/* Card styles for prayers and mysteries */
 .card {
-  padding: 2em;
+  background: rgba(10,10,30,0.6);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #0ff;
+  box-shadow: 0 0 15px #0ff inset, 0 0 25px #ff00ff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.read-the-docs {
-  color: #888;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px #0ff, 0 0 50px #ff00ff inset;
+}
+
+/* Text inside content */
+#content {
+  text-align: left;
+  margin-top: 25px;
+  line-height: 1.6;
+  color: #00fff7;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px);}
+  to { opacity: 1; transform: translateY(0);}
 }

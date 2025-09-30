@@ -1,0 +1,24 @@
+[
+  {
+    "day": 1,
+    "openingPrayer": "Opening prayer for Day 1...",
+    "mysteries": [
+      {
+        "title": "Mystery 1",
+        "reflection": "Reflection for mystery 1..."
+      }
+    ],
+    "closingPrayer": "Closing prayer for Day 1..."
+  },
+  {
+    "day": 2,
+    "openingPrayer": "Opening prayer for Day 2...",
+    "mysteries": [
+      {
+        "title": "Mystery 1",
+        "reflection": "Reflection for mystery 1..."
+      }
+    ],
+    "closingPrayer": "Closing prayer for Day 2..."
+  }
+]
